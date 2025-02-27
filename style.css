@@ -14,3 +14,75 @@ body{
     flex-direction: column;
     height: 100vh;
 }
+
+.container{
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+}
+
+.container p{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container span{
+    font-size: 12px;
+}
+
+.container a{
+    color: #333;
+    font-size: 15px;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.container button{
+    background-color: #512da8;
+    color: white;
+    font-size: 15px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.container button.hidden{
+    background-color: transparent;
+    border-color: white;
+}
+
+.container form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 40px;
+    height: 100%;
+}
+
+.container input{
+    background-color: #eee;
+    border: none;
+    margin: 8px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+}
+.form-container{
+    position: absolute;
+}
