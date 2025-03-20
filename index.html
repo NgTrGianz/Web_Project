@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý Đồ án</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 50px;
+        }
+        .box {
+            border: 1px solid black;
+            padding: 10px;
+            width: 300px;
+        }
+        .box h3 {
+            font-weight: bold;
+        }
+        .actions {
+            font-style: italic;
+        }
+        input, button {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h2><b>Đồ án</b></h2>
+    <div class="container">
+        <div class="box">
+            <h3>Sinh viên</h3>
+            <label>Link file:</label>
+            <br>
+            <button onclick="submitFile()"><i>Submit</i></button>
+            <button onclick="cancel()"><i>Cancel</i></button>
+        </div>
+        <div class="box">
+            <h3>Sinh viên</h3>
+            <label>Họ tên:</label> <input type="text" id="name"><br>
+            <label>Mã sv:</label> <input type="text" id="id"><br>
+            <label>Tên đồ án:</label> <input type="text" id="project"><br>
+            <label>Keyword:</label> <input type="text" id="keyword"><br>
+            <label>Short description:</label> <input type="text" id="description"><br>
+            <label>GV hướng dẫn:</label> <input type="text" id="advisor"><br>
+            <label>Link file:</label> <input type="text" id="file"><br>
+            <label>Comment:</label> <input type="text" id="comment"><br>
+            <button onclick="returnProject()"><i>Return</i></button>
+            <button onclick="submitFile()"><i>Submit</i></button>
+            <button onclick="cancel()"><i>Cancel</i></button>
+        </div>
+    </div>
+    
+    <script>
+        function submitFile() {
+            alert("File đã được nộp!");
+        }
+        function cancel() {
+            alert("Hủy thao tác!");
+        }
+        function returnProject() {
+            alert("Đồ án đã được trả lại!");
+        }
+    </script>
+</body>
+</html>
