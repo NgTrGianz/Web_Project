@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th, td{
+            height: 10px;
+            width: 10px;
+            border-collapse: collapse;
+            border: 2px solid black;
+            padding: 5px 10px 5px 5px;
+            text-align: left;
+        }
+        textarea{
+            height: 100px;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <data>Form to Practice</data>
+        </thead>
+        <tbody>
+            <tr height="50px">
+                <td>Introduce yourself</td>
+                <td>
+                    <textarea>Hello, my name is Giang....</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Email to contact</td>
+                <td>
+                    <input type="email" name="email" placeholder="abcd@gmail.com">
+                </td>
+            </tr>
+            <tr>
+                <td>Adress link to your web</td>
+                <td>
+                    <input name="link" type="url">
+                </td>
+            </tr>
+            <tr>
+                <td>Phone number</td>
+                <td>
+                    <input type="number" name="phone-number">
+                </td>
+            </tr>
+            <tr>
+                <td>Time and selections</td>
+                <td>
+                    <data> <strong>Day && Month</strong></data><br><br>
+                    <label>Choose day:</label>
+                    <input id="day" type="date"><br>
+                    <label>Choose month:</label>
+                    <input id="month" type="month"><br>
+                    <label>Choose week:</label>
+                    <input id="week" type="week"><br><br>
+                    <data> <strong>Hour</strong></data><br><br>
+                    <label>Choose hour:</label>
+                    <input id="hour" type="time"><br>
+                    <label>Choose date&time:</label>
+                    <input id="data-time" type="datetime-local">
+                </td>
+            </tr>
+            <tr>
+                <td>Favorite color</td>
+                <td>
+                    <input type="color" name="color">
+                </td>
+            </tr>
+            <tr>
+                <td>Your adress</td>
+                <td>
+                    <input type="text" name="adrs" id="">
+                </td>
+            </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>
