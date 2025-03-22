@@ -1,0 +1,75 @@
+html{
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Chiều cao toàn màn hình */
+    background-color: #e1dfdf; /* Màu nền tùy chọn */
+}
+h2, .form {
+    margin: 0; /* Xóa margin mặc định */
+}
+.container {
+    position: relative;
+    display: flex; /* Sử dụng Flexbox */
+    flex-direction: column; /* Căn nội dung theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều dọc */
+    align-items: center; /* Căn giữa theo chiều ngang */
+    text-align: center; /* Căn giữa văn bản */
+    height: 480px;
+    width: 330px;
+    border-radius: 10%;
+    background-color: white;
+    gap: 18px;
+}
+.form input{
+    padding-left: 15px;
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+    font-size: 16px;
+    border: solid gray 1px;
+}
+.form button{
+    border: 0;
+    height: 40px;
+    width: 280px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
+
+.circle-RU{
+    position: fixed;
+    top: -50vmin;
+    left: -50vmin;
+    width: 100vmin;
+    height: 100vmin;
+    background-color: rgb(236, 35, 99);
+    border-radius: 500px;
+}
+.circle-RB{
+    position: fixed;
+    bottom: -50vmin;
+    right: -50vmin;
+    width: 100vmin;
+    height: 100vmin;
+    background-color: rgb(146, 127, 255);
+    border-radius: 500px;
+}
+
+.circle-UM{
+    position: absolute;
+    background-color: rgb(74, 179, 74);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px; /* Điều chỉnh chiều cao */
+    border-radius: 30px 30px 50% 50%; /* Bo góc trên và cong xuống */
+    
+}
