@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    object-fit: cover;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    place-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+
+nav .main-page {
+    font-size: 25px;
+    color: #0F2182;
+    font-weight: bold;
+}
+
+nav div {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+
+}
+
+nav div .get-started {
+    color: white;
+    background-color: black;
+    height: 25px;
+    width: 90px;
+    place-items: center;
+}
+
+nav div .login {
+    border: none;
+    height: 25px;
+    width: 50px;
+    place-items: center;
+}
+
+header {
+    display: flex;
+    padding: 0 80px;
+    align-items: center;
+    justify-content: space-between;
+    height: calc(100vh - 80px);
+}
+
+header .left {
+    width: 53%;
+}
+
+header .left h1 {
+    font-size: 60px;
+    margin: 0;
+    text-align: left;
+}
+
+header .left span {
+    color: #0f2182;
+}
+
+header .left p {
+    margin: 40px 0;
+}
+
+header .left a {
+    display: flex;
+    background-color: black;
+    border-radius: 60px;
+    height: 40px;
+    width: 170px;
+    align-items: center;
+    justify-content: left;
+}
+
+header .left a span {
+    color: white;
+    padding: 10px;
+}
+
+header .left a i {
+    background-color: white;
+    font-size: 23px;
+    border-radius: 50%;
+    padding: 5px;
+    margin-left: 4px;
+}
+
+header img {
+    width: 40%;
+}
+
+.nft-list {
+    padding: 0 80px;
+}
+
+.separator {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+    padding: 0 80px;
+}
+
+.nft-list .nft {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.nft-list .nft .item {
+    height: auto;
+    width: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.nft-list .nft .item .header {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.nft-list .nft .item .header i {
+    font-size: 35px;
+}
+
+.nft-list .nft .item .header h5 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nft-shop .category {
+    padding: 0 80px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.nft-shop .category a{
+    height: auto;
+    width: auto;
+    background-color: rgb(205, 203, 203);
+    padding: 5px 10px;
+    border-radius: 12px;
+}
+
+.nft-shop .nft-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nft-shop .nft-list .item img{
+    background-color: white;
+    gap: 25px;
+    width: 250px;
+    place-items: center;
+}
+
+.nft-shop .nft-list .item img {
+    width: 200px;
+}
