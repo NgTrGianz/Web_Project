@@ -123,6 +123,7 @@ header img {
     display: flex;
     justify-content: space-between;
     gap: 30px;
+    padding-top: 25px;
 }
 
 .nft-list .nft .item {
