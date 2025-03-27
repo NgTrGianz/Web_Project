@@ -166,19 +166,128 @@ header img {
     border-radius: 12px;
 }
 
+.nft-shop .category a:hover{
+    color: white;
+    background-color: #0f2182;
+}
 .nft-shop .nft-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nft-shop .nft-list .item img{
+.nft-shop .nft-list .item{
     background-color: white;
+    padding: 15px;
     gap: 25px;
-    width: 250px;
-    place-items: center;
+    width: 240px;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 .nft-shop .nft-list .item img {
-    width: 200px;
+    width: 100%; height: 100%;
+    border-radius: 20px 20px 35px 35px;
+    padding-bottom: 15px;
+    object-fit: cover;
+}
+
+.nft-shop .nft-list .item .info{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    font-size: 14px;
+}
+
+.nft-shop .nft-list .item .info .btc {
+    display: flex;
+    gap: 5px;
+    color: #304FFE;
+}
+
+.nft-shop .nft-list .item .bid {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.nft-shop .nft-list .item .bid a {
+    color: #304FFE;
+}
+.view-more {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+.view-more button{
+    border: none;
+    background-color: #DFDCDC;
+    height: 30px;
+    width: 100px;
+    border-radius: 7px;
+}
+.seller {
+    padding-top: 25px;
+    padding-bottom: 70px;
+    margin: 0 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.seller .item {
+    display: flex;
+    width: 240px;
+    height: 100px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    place-items: center;
+    gap: 10px;
+}
+
+.seller .item img {
+    width: 70px;
+}
+
+.seller .item .info {
+    display: grid;
+    gap: 10px;
+}
+
+.seller .item .info .name{
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    background-color: #000;
+    color: white;
+    place-items: center;
+    padding: 80px 60px;
+    justify-content: space-between;
+}
+footer h1 {
+    width: 40%;
+}
+footer .right {
+    width: 40%;
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .right .links a, p{
+    color: #6D6D6D;
+}
+footer .right p{
+    font-size: 10px;
+}
+footer .links .social {
+    display: flex;
+}
+
+footer .right .social i{
+    font-size: 30px;
+    
 }
