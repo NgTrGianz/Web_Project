@@ -132,6 +132,7 @@ header img {
     padding: 20px;
     background-color: white;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .nft-list .nft .item .header {
@@ -171,6 +172,7 @@ header img {
     background-color: #0f2182;
 }
 .nft-shop .nft-list {
+    gap: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -179,8 +181,8 @@ header img {
 .nft-shop .nft-list .item{
     background-color: white;
     padding: 15px;
-    gap: 25px;
-    width: 240px;
+    gap: 10px;
+    width: 450px;
     border-radius: 20px;
     overflow: hidden;
 }
@@ -205,6 +207,9 @@ header img {
     color: #304FFE;
 }
 
+.nft-shop .nft-list .item .info .btc p{
+    color: #304FFE;
+}
 .nft-shop .nft-list .item .bid {
     display: flex;
     justify-content: space-between;
@@ -263,7 +268,7 @@ footer {
     background-color: #000;
     color: white;
     place-items: center;
-    padding: 80px 60px;
+    padding: 90px 80px;
     justify-content: space-between;
 }
 footer h1 {
